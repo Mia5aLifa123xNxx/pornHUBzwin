@@ -67,7 +67,7 @@ client.on('message', message => {
 
 
 
-if (command == "تحدث") {
+if (command == "talk") {
 let rank = message.guild.member(message.author).roles.find('name', 'Role.Kahrbaa');
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
