@@ -1,7 +1,7 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
-const myid = ['506168315085848588'];
+const myid = ['536928110055260170'];
 const prefix = ['-'];
 
 client.on('ready', () => {
@@ -68,8 +68,8 @@ client.on('message', message => {
 
 
 if (command == "talk") {
-let rank = message.guild.member(message.author).roles.find('name', 'Role.Kahrbaa');
-if (!rank) return message.reply(" ")
+let rank = message.guild.member(message.author).roles.find('name', 'Role.bearboy');
+if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
     message.delete();
   }
@@ -119,8 +119,8 @@ client2.on('message', message => {
 
 
 if (command == "talk") {
-let rank = message.guild.member(message.author).roles.find('name', 'Role.Kahrbaa');
-if (!rank) return message.reply(" ")
+let rank = message.guild.member(message.author).roles.find('name', 'Role.bearboy');
+if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
     message.delete();
   }
